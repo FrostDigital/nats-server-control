@@ -14,7 +14,7 @@ describe('Example spec', function() {
         .on('connect', done);
     }
 
-    server = nsc.startServer(busPort)
+    nsc.startServer(busPort)
       .then(function(oServer) { server = oServer; })
       .then(createClient)
       .catch(done.fail);
