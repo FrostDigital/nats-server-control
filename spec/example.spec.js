@@ -1,4 +1,4 @@
-var nats = require('nats');
+var nats = require('nats'),
     nsc = require('../');
 
 describe('Example spec', function() {
