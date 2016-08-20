@@ -1,9 +1,8 @@
 # NATS Server Control
 
-> This has been cherry picked from [node-nats](https://github.com/nats-io/node-nats/tree/4092435aabe328667002032e8488802ffd8eae59/test/support). Kudos to Apcera and the [author(s)](https://github.com/nats-io/node-nats/blob/ef3ad853e75f1962dbaa5373d6928989e3633021/package.json#L25) of that repo!
+> This has been cherry picked from [node-nats](https://github.com/nats-io/node-nats/tree/4092435aabe328667002032e8488802ffd8eae59/test/support) and slightly modified to allow promise syntax. Kudos to Apcera and the [author(s)](https://github.com/nats-io/node-nats/blob/ef3ad853e75f1962dbaa5373d6928989e3633021/package.json#L25) of that repo!
 
 Start, stop and kill the gnatsd process from javascript. Useful during testing where a NATS bus is needed.
-
 
 ## Start and stop a NATS server
 
