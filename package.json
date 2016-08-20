@@ -1,0 +1,31 @@
+{
+  "name": "nats-server-control",
+  "version": "0.0.1",
+  "description": "Control the gnatsd process with javascript. Useful in testing purposes. This originates from https://github.com/nats-io/node-nats",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostDigital/nats-server-control.git"
+  },
+  "keywords": [
+    "NATS",
+    "gnatsd",
+    "tdd"
+  ],
+  "author": "Joel Söderström <joel@frostdigital.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrostDigital/nats-server-control/issues"
+  },
+  "homepage": "https://github.com/FrostDigital/nats-server-control#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "nats": "^0.6.4"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  }
+}
