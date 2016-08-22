@@ -7,7 +7,7 @@ describe('Example spec', function() {
   var busPort = Math.floor(Math.random() * 6000 + 2000);
   var busAddress = 'nats://localhost:' + busPort;
 
-  beforeAll(function(done) {
+  beforeEach(function(done) {
     function createClient() {
       client = nats.connect(busAddress)
         .on('error', done.fail)
@@ -20,7 +20,7 @@ describe('Example spec', function() {
       .catch(done.fail);
   });
 
-  afterAll(function() {     
+  afterEach(function() {     
     if(server) {
       server.kill();      
     }
